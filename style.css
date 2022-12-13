@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1920px;
+    height: 122px;
+    position: fixed;
+  }
+  h2 {
+    display: flex;
+    width: 250px;
+    height: 49px;
+    justify-content: flex-end;
+    font-family: Montserrat, Bold, sans-serif;
+    font-size: 40px;
+  }
+  .menuList {
+    display: flex;
+    list-style: none;
+    width: 640px;
+    height: 49px;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: Montserrat, Light, sans-serif;
+    opacity: 0.6;
+  }
+  .list:hover {
+    font-family: Montserrat, Black, sans-serif;
+  }
+  
+  .firstSectionMain {
+    background-image: url("./imagens/laranja.png");
+    display: flex;
+    height: 780px;
+    flex-direction: column;
+  }
+  main {
+    padding-top: 122px;
+  }
+  h1 {
+    display: flex;
+    font-family: Montserrat, ExtraBold, sans-serif;
+    color: #ffffff;
+    font-size: 78px;
+    width: 1100px;
+    justify-content: flex-end;
+    height: 350px;
+    align-items: flex-end;
+  }
+  .faleConosco {
+    color: #ffffff;
+    font-family: Montserrat, Light, sans-serif;
+    font-size: 35px;
+    display: flex;
+    width: 365px;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: flex-end;
+  }
+  .secondSectionMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 140vh;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  
+  .secondSectionMain img {
+    width: 398px;
+    height: 398px;
+  }
+  footer {
+    display: flex;
+    width: 1920px;
+    height: 126px;
+    background-color: #e2e2e2;
+    padding-left: 100px;
+  }
+  footer section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 126px;
+    width: 500px;
+  }
+  
+  h3 {
+    display: flex;
+    font-size: 20px;
+    font-family: Montserrat, Bold, sans-serif;
+    height: 126px;
+    width: 270px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .finalFooter {
+    display: flex;
+    font-size: 15px;
+    font-family: Montserrat, Light, sans-serif;
+    color: #000000;
+    opacity: 0.7;
+    height: 126px;
+    align-items: center;
+    width: 570px;
+    justify-content: flex-end;
+    padding-left: 100px;
+  }
+  .secondSectionMain img:hover {
+    transform: scale(105%);
+  }
+  @media (max-width: 320px) {
+  
+  };
+  
