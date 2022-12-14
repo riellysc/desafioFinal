@@ -39,7 +39,7 @@
     opacity: 0.6;
   }
   .list:hover {
-    font-family: Montserrat, Black, sans-serif;
+    font-weight: 900;
   }
   
   .firstSectionMain {
@@ -70,6 +70,11 @@
     justify-content: flex-end;
     height: 100px;
     align-items: flex-end;
+  }
+  .faleConosco:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: all 0.5s;
   }
   .secondSectionMain {
     display: flex;
@@ -124,7 +129,47 @@
   .secondSectionMain img:hover {
     transform: scale(105%);
   }
-  @media (max-width: 320px) {
-  
+  @media (max-width: 375px) {
+    
+
+  .firstSectionMain{
+    background-image: url(./imagens/laranja\ azul\ .png)
+    
+  }
+  header{
+    height: 27px; 
+  }
+  .firstSectionMain{
+    height: 640px;
+    width: 375px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    
+  }
+  h2{
+    font-size: 18px;
+    height: 22px;
+    width: 81px;
+    padding-left: 207px;
+
+  }
+  .secondSectionMain img {
+    width: 300px;
+    height: 300px;
+  }
+
+  h1{
+    font-size: 50px;
+    width: 300px;
+    padding-left: 30px;
+  }
+  .faleConosco{
+    font-size: 18px;
+   padding-right: 186px;
+   padding-bottom: 50px;
+  }
+ 
+
+
   };
   
